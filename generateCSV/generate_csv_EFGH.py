@@ -9,7 +9,7 @@ db = clint['testMapList']
 items = db.mapingCollection.find()
 cnt = 0
 num = 0
-file = open('mongoInfo.csv','w')
+file = open('mongoInfo_EFGH.csv','w')
 writer = csv.writer(file)
 
 array = []
